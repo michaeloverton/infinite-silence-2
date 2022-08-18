@@ -1,0 +1,25 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2932040671	Play_Music			\Default Work Unit\Play_Music	
+	2967050589	Play_Bass_Pulse			\Default Work Unit\Play_Bass_Pulse	
+	3627003398	Play_Switchable			\Default Work Unit\Play_Switchable	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	2114309552	Repeater_Switch_Group			\Default Work Unit\Repeater_Switch_Group	
+
+Switch	ID	Name	Switch Group			Notes
+	2744135750	Rep_On	Repeater_Switch_Group			
+	3388738220	Rep_Off	Repeater_Switch_Group			
+
+State Group	ID	Name			Wwise Object Path	Notes
+	2215261762	Intensity_State_Group			\Default Work Unit\Intensity_State_Group	
+
+State	ID	Name	State Group			Notes
+	437296015	Stress_State	Intensity_State_Group			
+	748895195	None	Intensity_State_Group			
+	1511550594	Normal_State	Intensity_State_Group			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	317410522	arp2-4bar	D:\Unreal\infinite_silence_2_redux\infinite_silence_2_redux_WwiseProject\.cache\Windows\SFX\arp2-4bar_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Intensity Switch\Stress\arp2-4bar\arp2-4bar		1954036
+	437613865	rep1	D:\Unreal\infinite_silence_2_redux\infinite_silence_2_redux_WwiseProject\.cache\Windows\SFX\rep1_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Repeater Switch\High Rep Once\rep1\rep1		10421236
+	974385449	arp1-4bar	D:\Unreal\infinite_silence_2_redux\infinite_silence_2_redux_WwiseProject\.cache\Windows\SFX\arp1-4bar_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Intensity Switch\Normal\arp1-4bar\arp1-4bar		1954036
+

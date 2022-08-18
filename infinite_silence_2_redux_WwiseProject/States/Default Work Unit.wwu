@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{5A0F2AC0-9B20-4492-85D3-BBDA4B8EBD3F}" SchemaVersion="103">
+	<States>
+		<WorkUnit Name="Default Work Unit" ID="{5A0F2AC0-9B20-4492-85D3-BBDA4B8EBD3F}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="Intensity_State_Group" ID="{2D317D74-4A17-4210-8378-BFF6AA94E1AC}">
+					<ChildrenList>
+						<State Name="None" ID="{FF100523-7DC2-4DCC-8DD6-D3DD19D90A40}"/>
+						<State Name="Normal_State" ID="{E991D11E-394D-4013-9F16-A5C86768F896}"/>
+						<State Name="Stress_State" ID="{543B05D3-7ECD-426B-B326-754C7C6AD00B}"/>
+					</ChildrenList>
+					<TransitionList>
+						<Transition>
+							<StartState Name="Normal_State" ID="{E991D11E-394D-4013-9F16-A5C86768F896}"/>
+							<EndState Name="Stress_State" ID="{543B05D3-7ECD-426B-B326-754C7C6AD00B}"/>
+							<Time>0</Time>
+							<IsShared>true</IsShared>
+						</Transition>
+					</TransitionList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</States>
+</WwiseDocument>

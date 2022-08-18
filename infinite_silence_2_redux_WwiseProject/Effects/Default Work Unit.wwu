@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{8D8CA978-AD13-4412-B10C-DF88ED026504}" SchemaVersion="103">
+	<Effects>
+		<WorkUnit Name="Default Work Unit" ID="{8D8CA978-AD13-4412-B10C-DF88ED026504}" PersistMode="Standalone">
+			<ChildrenList>
+				<Effect Name="New_iZotope_Trash_Delay" ID="{8E2C368F-8893-4C7F-BFE7-0FEC0D916D13}" PluginName="iZotope Trash Delay" CompanyID="259" PluginID="4" PluginType="3">
+					<PropertyList>
+						<Property Name="WetOut" Type="Real32" Value="100"/>
+					</PropertyList>
+				</Effect>
+				<Effect Name="New_iZotope_Trash_Delay_01" ID="{69196CCF-1C3B-4F62-95E2-C3452E67F261}" PluginName="iZotope Trash Delay" CompanyID="259" PluginID="4" PluginType="3">
+					<PropertyList>
+						<Property Name="Feedback" Type="Real32" Value="60"/>
+						<Property Name="HighCutoff" Type="Real32" Value="9100"/>
+						<Property Name="LowCutoff" Type="Real32" Value="20"/>
+						<Property Name="WetOut" Type="Real32" Value="47"/>
+					</PropertyList>
+				</Effect>
+			</ChildrenList>
+		</WorkUnit>
+	</Effects>
+</WwiseDocument>

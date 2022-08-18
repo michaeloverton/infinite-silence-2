@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
+	<RootPaths>
+		<ProjectRoot>D:\Unreal\infinite_silence_2_redux\infinite_silence_2_redux_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>D:\Unreal\infinite_silence_2_redux\infinite_silence_2_redux_WwiseProject\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>D:\Unreal\infinite_silence_2_redux\infinite_silence_2_redux_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>D:\Unreal\infinite_silence_2_redux\infinite_silence_2_redux_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<SoundBanks>
+		<SoundBank Id="3161908922" GUID="{FA068457-4D8E-46D7-9615-B52DDC9EA4CA}" Language="SFX" Hash="859266973">
+			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
+			<ShortName>Main</ShortName>
+			<Path>Main.bnk</Path>
+			<IncludedEvents>
+				<Event Id="2967050589" Name="Play_Bass_Pulse" ObjectPath="\Events\Default Work Unit\Play_Bass_Pulse" GUID="{0FA8DEDC-317E-4A17-B84E-DC688D565D3B}" DurationType="OneShot" DurationMin="7.384615" DurationMax="7.384615">
+					<IncludedMemoryFiles>
+						<File Id="437613865" Language="SFX">
+							<ShortName>rep1.wav</ShortName>
+							<Path>SFX\rep1_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2932040671" Name="Play_Music" ObjectPath="\Events\Default Work Unit\Play_Music" GUID="{14A2AAA1-8104-48C3-9793-ADAF40AF18BA}" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="317410522" Language="SFX">
+							<ShortName>arp2-4bar.wav</ShortName>
+							<Path>SFX\arp2-4bar_D79FB2B7.wem</Path>
+						</File>
+						<File Id="437613865" Language="SFX">
+							<ShortName>rep1.wav</ShortName>
+							<Path>SFX\rep1_D79FB2B7.wem</Path>
+						</File>
+						<File Id="974385449" Language="SFX">
+							<ShortName>arp1-4bar.wav</ShortName>
+							<Path>SFX\arp1-4bar_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3627003398" Name="Play_Switchable" ObjectPath="\Events\Default Work Unit\Play_Switchable" GUID="{D75161A2-5F6D-470F-A159-5A67E3CE741A}" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="317410522" Language="SFX">
+							<ShortName>arp2-4bar.wav</ShortName>
+							<Path>SFX\arp2-4bar_D79FB2B7.wem</Path>
+						</File>
+						<File Id="437613865" Language="SFX">
+							<ShortName>rep1.wav</ShortName>
+							<Path>SFX\rep1_D79FB2B7.wem</Path>
+						</File>
+						<File Id="974385449" Language="SFX">
+							<ShortName>arp1-4bar.wav</ShortName>
+							<Path>SFX\arp1-4bar_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{E991D11E-394D-4013-9F16-A5C86768F896}">
+							<Media>
+								<File Id="974385449"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{543B05D3-7ECD-426B-B326-754C7C6AD00B}">
+							<Media>
+								<File Id="317410522"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{F728DF48-0ED7-44EF-AFA0-3974243A5007}">
+							<Media>
+								<File Id="437613865"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+			</IncludedEvents>
+			<StateGroups>
+				<StateGroup Id="2215261762" Name="Intensity_State_Group" ObjectPath="\States\Default Work Unit\Intensity_State_Group" GUID="{2D317D74-4A17-4210-8378-BFF6AA94E1AC}">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\Intensity_State_Group\None" GUID="{FF100523-7DC2-4DCC-8DD6-D3DD19D90A40}"/>
+						<State Id="1511550594" Name="Normal_State" ObjectPath="\States\Default Work Unit\Intensity_State_Group\Normal_State" GUID="{E991D11E-394D-4013-9F16-A5C86768F896}"/>
+						<State Id="437296015" Name="Stress_State" ObjectPath="\States\Default Work Unit\Intensity_State_Group\Stress_State" GUID="{543B05D3-7ECD-426B-B326-754C7C6AD00B}"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
+			<SwitchGroups>
+				<SwitchGroup Id="2114309552" Name="Repeater_Switch_Group" ObjectPath="\Switches\Default Work Unit\Repeater_Switch_Group" GUID="{6389D702-9B7C-4129-8030-B82F1D188AD7}">
+					<Switches>
+						<Switch Id="2744135750" Name="Rep_On" ObjectPath="\Switches\Default Work Unit\Repeater_Switch_Group\Rep_On" GUID="{F728DF48-0ED7-44EF-AFA0-3974243A5007}"/>
+						<Switch Id="3388738220" Name="Rep_Off" ObjectPath="\Switches\Default Work Unit\Repeater_Switch_Group\Rep_Off" GUID="{01F1C49E-4D17-4F18-89F4-5DE57CA4E5F0}"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

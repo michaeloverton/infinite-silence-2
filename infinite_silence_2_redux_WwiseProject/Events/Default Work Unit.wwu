@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{5FDFC12B-672C-408F-B684-FF95EC8B9767}" SchemaVersion="103">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{5FDFC12B-672C-408F-B684-FF95EC8B9767}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_Music" ID="{14A2AAA1-8104-48C3-9793-ADAF40AF18BA}">
+					<ChildrenList>
+						<Action Name="" ID="{A5B2D161-6191-4AF9-86FD-1FA2B70D6CDB}" ShortID="1014313604">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Intensity Switch" ID="{9DF4AFCF-F53C-4E50-ABA9-FC70EEF466F1}" WorkUnitID="{DE7F6C02-861E-4B12-B471-8A9E14A4DC8E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{0622384C-D93D-4C47-938A-48E90A17A570}" ShortID="204321991">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Repeater Switch" ID="{7FE3A9B2-6A69-4010-A233-1BB91D684FCD}" WorkUnitID="{DE7F6C02-861E-4B12-B471-8A9E14A4DC8E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Switchable" ID="{D75161A2-5F6D-470F-A159-5A67E3CE741A}">
+					<ChildrenList>
+						<Action Name="" ID="{8F712876-04CC-4307-9C36-7DA55ABC0718}" ShortID="293257867">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Intensity Switch" ID="{9DF4AFCF-F53C-4E50-ABA9-FC70EEF466F1}" WorkUnitID="{DE7F6C02-861E-4B12-B471-8A9E14A4DC8E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{676750A6-59F4-4335-9B73-5A5636224FCF}" ShortID="663218569">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Repeater Switch" ID="{7FE3A9B2-6A69-4010-A233-1BB91D684FCD}" WorkUnitID="{DE7F6C02-861E-4B12-B471-8A9E14A4DC8E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Bass_Pulse" ID="{0FA8DEDC-317E-4A17-B84E-DC688D565D3B}">
+					<ChildrenList>
+						<Action Name="" ID="{6DBC22EB-4078-40BF-B6EC-389EB3DC74FF}" ShortID="758810950">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="High Rep Once" ID="{1B05F3EC-8F18-4F98-B40F-F83A7DB31D37}" WorkUnitID="{DE7F6C02-861E-4B12-B471-8A9E14A4DC8E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

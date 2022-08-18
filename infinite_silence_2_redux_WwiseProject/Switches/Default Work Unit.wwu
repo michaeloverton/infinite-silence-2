@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{60B1A706-6F39-4C95-920F-D490565B668E}" SchemaVersion="103">
+	<Switches>
+		<WorkUnit Name="Default Work Unit" ID="{60B1A706-6F39-4C95-920F-D490565B668E}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="Intensity_Switch_Group" ID="{6DBB7425-2EB8-48CA-84A7-9273153A8A15}">
+					<ChildrenList>
+						<Switch Name="Normal_Switch" ID="{6747814B-15A5-4635-9187-271885AE7347}"/>
+						<Switch Name="Stress_Switch" ID="{4339E6B9-2F61-4DA3-B292-F69FA9E1811A}"/>
+					</ChildrenList>
+				</SwitchGroup>
+				<SwitchGroup Name="Repeater_Switch_Group" ID="{6389D702-9B7C-4129-8030-B82F1D188AD7}">
+					<ChildrenList>
+						<Switch Name="Rep_On" ID="{F728DF48-0ED7-44EF-AFA0-3974243A5007}"/>
+						<Switch Name="Rep_Off" ID="{01F1C49E-4D17-4F18-89F4-5DE57CA4E5F0}"/>
+					</ChildrenList>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</Switches>
+</WwiseDocument>
