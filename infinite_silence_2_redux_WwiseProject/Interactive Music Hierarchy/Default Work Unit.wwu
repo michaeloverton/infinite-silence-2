@@ -433,7 +433,7 @@
 																				<MusicClip Name="darkness" ID="{7DAE10D1-D96E-4E68-8FC5-B8E50419826F}">
 																					<PropertyList>
 																						<Property Name="EndTrimOffset" Type="Real64" Value="307200"/>
-																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeInDuration" Type="Real64" Value="192.266191150245"/>
 																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
 																					</PropertyList>
 																					<AudioSourceRef Name="darkness" ID="{48639E57-D67B-4E69-86B4-DFC88A82107F}"/>
@@ -483,7 +483,7 @@
 																				<MusicClip Name="drone" ID="{237EBBAA-0983-4074-BE80-B05056640C61}">
 																					<PropertyList>
 																						<Property Name="EndTrimOffset" Type="Real64" Value="307200"/>
-																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeInDuration" Type="Real64" Value="197.530989387673"/>
 																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
 																					</PropertyList>
 																					<AudioSourceRef Name="drone" ID="{ACDDF425-5480-4461-A136-7FE25B656DCA}"/>
@@ -533,7 +533,7 @@
 																				<MusicClip Name="pad-loop" ID="{A51E46B2-D4B1-4F55-BA17-999B4BE4C17B}">
 																					<PropertyList>
 																						<Property Name="EndTrimOffset" Type="Real64" Value="307200"/>
-																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeInDuration" Type="Real64" Value="196.662615394148"/>
 																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
 																					</PropertyList>
 																					<AudioSourceRef Name="pad-loop" ID="{597E9356-08BE-4DC8-B9BF-0C13C7787F6C}"/>
@@ -627,6 +627,36 @@
 									</ReferenceList>
 									<ChildrenList>
 										<MusicTrack Name="bass" ID="{B70E3834-7E5B-40D3-A314-86DA31A2D84E}" ShortID="329769331">
+											<PropertyList>
+												<Property Name="MakeUpGain" Type="Real64">
+													<RTPCList>
+														<RTPC Name="" ID="{9C54C040-8786-414E-B53C-4EAA7BA08928}" ShortID="954026224">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="Bass_Vol_Param" ID="{CAD5B4D2-AFE2-452A-8C83-7ED687D3D83E}" WorkUnitID="{4DB599A2-23F6-4E98-B331-864303A4BFF0}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{CCA07A95-7BB2-4DE7-A3FA-64EB2F1E3D20}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-96</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4A0D608B-90A2-4468-BC29-94B01E08E242}"/>
@@ -661,7 +691,7 @@
 																				<MusicClip Name="bass" ID="{ECDB31B2-AB9D-4729-AE64-F8CA277472CB}">
 																					<PropertyList>
 																						<Property Name="EndTrimOffset" Type="Real64" Value="307200"/>
-																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeInDuration" Type="Real64" Value="97.9257215944658"/>
 																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
 																					</PropertyList>
 																					<AudioSourceRef Name="bass" ID="{D7CD36AE-499F-462F-B19B-6E2DAF123F17}"/>
@@ -682,6 +712,32 @@
 													<ValueList>
 														<Value>2</Value>
 													</ValueList>
+													<RTPCList>
+														<RTPC Name="" ID="{218D1BB4-3E39-4931-AF66-53E959827ABB}" ShortID="398532789">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="Darkness_Vol_Param" ID="{6506ED8A-04C6-4742-8AE6-D9818DEFFC89}" WorkUnitID="{4DB599A2-23F6-4E98-B331-864303A4BFF0}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{E5D847B6-85ED-4E7C-BD1D-06C61F0E74AB}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
 												</Property>
 											</PropertyList>
 											<ReferenceList>
@@ -718,7 +774,7 @@
 																				<MusicClip Name="darkness" ID="{0F81EBEE-7219-447C-858D-3166601A1A68}">
 																					<PropertyList>
 																						<Property Name="EndTrimOffset" Type="Real64" Value="307200"/>
-																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeInDuration" Type="Real64" Value="107.402404329414"/>
 																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
 																					</PropertyList>
 																					<AudioSourceRef Name="darkness" ID="{DE7DBE5F-300F-414D-BE39-06562E53F58A}"/>
@@ -768,7 +824,7 @@
 																				<MusicClip Name="drone" ID="{A98B80F8-F0C2-449A-8EE4-0050510732F6}">
 																					<PropertyList>
 																						<Property Name="EndTrimOffset" Type="Real64" Value="307200"/>
-																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeInDuration" Type="Real64" Value="101.084615839449"/>
 																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
 																					</PropertyList>
 																					<AudioSourceRef Name="drone" ID="{099EDD1B-FECE-475C-A880-EDF7D0A50A56}"/>
@@ -818,7 +874,7 @@
 																				<MusicClip Name="pad-loop" ID="{F8ED5E37-F410-405C-8855-1F85CB8BCDBF}">
 																					<PropertyList>
 																						<Property Name="EndTrimOffset" Type="Real64" Value="307200"/>
-																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeInDuration" Type="Real64" Value="101.084615839449"/>
 																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
 																					</PropertyList>
 																					<AudioSourceRef Name="pad-loop" ID="{70D65C77-BF0E-439D-BBB9-83B51DBCD6C3}"/>
@@ -910,7 +966,31 @@
 							</PropertyList>
 							<ChildrenList>
 								<MusicTransition Name="Transition" ID="{8A193392-120D-4520-98B9-40E7FBDD6C18}">
-									<TransitionInfo/>
+									<PropertyList>
+										<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
+										<Property Name="EnableTransitionFadeIn" Type="bool" Value="True"/>
+										<Property Name="ExitSourceAt" Type="int16" Value="3"/>
+										<Property Name="PlayTransitionPostExit" Type="bool" Value="False"/>
+										<Property Name="PlayTransitionPreEntry" Type="bool" Value="False"/>
+									</PropertyList>
+									<TransitionInfo>
+										<SourceFadeOut>
+											<MusicFade Name="Source Fade-out" ID="{3F5F484B-B263-4F4B-B497-833E8E1FD531}">
+												<PropertyList>
+													<Property Name="FadeCurve" Type="int16" Value="1"/>
+													<Property Name="FadeTime" Type="Real64" Value="0.1"/>
+													<Property Name="FadeType" Type="int16" Value="1"/>
+												</PropertyList>
+											</MusicFade>
+										</SourceFadeOut>
+										<TransitionFadeIn>
+											<MusicFade Name="Transition Fade-in" ID="{CBC21E69-3FAD-4A09-A5D3-9A703486D9E3}">
+												<PropertyList>
+													<Property Name="FadeTime" Type="Real64" Value="3.3"/>
+												</PropertyList>
+											</MusicFade>
+										</TransitionFadeIn>
+									</TransitionInfo>
 								</MusicTransition>
 							</ChildrenList>
 							<TransitionInfo/>

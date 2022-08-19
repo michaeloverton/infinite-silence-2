@@ -3,17 +3,11 @@
 	<Effects>
 		<WorkUnit Name="Default Work Unit" ID="{8D8CA978-AD13-4412-B10C-DF88ED026504}" PersistMode="Standalone">
 			<ChildrenList>
-				<Effect Name="New_iZotope_Trash_Delay" ID="{8E2C368F-8893-4C7F-BFE7-0FEC0D916D13}" PluginName="iZotope Trash Delay" CompanyID="259" PluginID="4" PluginType="3">
+				<Effect Name="Bass_Pulse_Delay" ID="{9472CEC1-E2A1-4A43-8B34-82992AE9822F}" PluginName="Wwise Delay" CompanyID="0" PluginID="106" PluginType="3">
 					<PropertyList>
-						<Property Name="WetOut" Type="Real32" Value="100"/>
-					</PropertyList>
-				</Effect>
-				<Effect Name="New_iZotope_Trash_Delay_01" ID="{69196CCF-1C3B-4F62-95E2-C3452E67F261}" PluginName="iZotope Trash Delay" CompanyID="259" PluginID="4" PluginType="3">
-					<PropertyList>
-						<Property Name="Feedback" Type="Real32" Value="60"/>
-						<Property Name="HighCutoff" Type="Real32" Value="9100"/>
-						<Property Name="LowCutoff" Type="Real32" Value="20"/>
-						<Property Name="WetOut" Type="Real32" Value="47"/>
+						<Property Name="DelayTime" Type="Real32" Value="0.47"/>
+						<Property Name="Feedback" Type="Real32" Value="46"/>
+						<Property Name="WetDryMix" Type="Real32" Value="36.5"/>
 					</PropertyList>
 				</Effect>
 			</ChildrenList>

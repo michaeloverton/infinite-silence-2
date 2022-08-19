@@ -18,6 +18,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Bass_Pulse" ID="{0A2FB24A-5426-41B1-979B-8FC64979DCB6}">
+					<ChildrenList>
+						<Action Name="" ID="{62652419-AABF-487B-B65D-2E91CF50508A}" ShortID="231256704">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Bass Pulse" ID="{BA03791A-5C84-4746-B63A-7811DF4632BA}" WorkUnitID="{44D4CCC4-3EE9-4D5A-A420-41C2DD3428E9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

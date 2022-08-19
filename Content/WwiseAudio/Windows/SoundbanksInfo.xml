@@ -11,16 +11,24 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="826508800">
+		<SoundBank Id="1355168291" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="444906602">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3161908922" GUID="{FA068457-4D8E-46D7-9615-B52DDC9EA4CA}" Language="SFX" Hash="2855868279">
+		<SoundBank Id="3161908922" GUID="{FA068457-4D8E-46D7-9615-B52DDC9EA4CA}" Language="SFX" Hash="3879047810">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<IncludedEvents>
+				<Event Id="2967050589" Name="Play_Bass_Pulse" ObjectPath="\Events\Default Work Unit\Play_Bass_Pulse" GUID="{0A2FB24A-5426-41B1-979B-8FC64979DCB6}" DurationType="OneShot" DurationMin="1.912507" DurationMax="1.912507">
+					<IncludedMemoryFiles>
+						<File Id="543423589" Language="SFX">
+							<ShortName>bass.wav</ShortName>
+							<Path>SFX\bass_55635EC3.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="2932040671" Name="Play_Music" ObjectPath="\Events\Default Work Unit\Play_Music" GUID="{14A2AAA1-8104-48C3-9793-ADAF40AF18BA}" DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="92715730" Language="SFX">
@@ -61,6 +69,7 @@
 			</IncludedEvents>
 			<GameParameters>
 				<GameParameter Id="815337444" Name="Darkness_Vol_Param" ObjectPath="\Game Parameters\Default Work Unit\Darkness_Vol_Param" GUID="{6506ED8A-04C6-4742-8AE6-D9818DEFFC89}"/>
+				<GameParameter Id="855742124" Name="Bass_Vol_Param" ObjectPath="\Game Parameters\Default Work Unit\Bass_Vol_Param" GUID="{CAD5B4D2-AFE2-452A-8C83-7ED687D3D83E}"/>
 			</GameParameters>
 			<StateGroups>
 				<StateGroup Id="2434766612" Name="Music_State_Group" ObjectPath="\States\Default Work Unit\Music_State_Group" GUID="{1987A283-C586-4ADC-838D-511E70B1BDF2}">

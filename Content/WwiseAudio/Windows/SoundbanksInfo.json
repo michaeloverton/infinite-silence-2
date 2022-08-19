@@ -19,7 +19,7 @@
     "Id": "1355168291",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "826508800",
+    "Hash": "444906602",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk"
@@ -28,11 +28,28 @@
     "Id": "3161908922",
     "GUID": "{FA068457-4D8E-46D7-9615-B52DDC9EA4CA}",
     "Language": "SFX",
-    "Hash": "2855868279",
+    "Hash": "3879047810",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
     "IncludedEvents": [
+     {
+      "Id": "2967050589",
+      "Name": "Play_Bass_Pulse",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Bass_Pulse",
+      "GUID": "{0A2FB24A-5426-41B1-979B-8FC64979DCB6}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.912507",
+      "DurationMax": "1.912507",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "543423589",
+        "Language": "SFX",
+        "ShortName": "bass.wav",
+        "Path": "SFX\\bass_55635EC3.wem"
+       }
+      ]
+     },
      {
       "Id": "2932040671",
       "Name": "Play_Music",
@@ -106,6 +123,12 @@
       "Name": "Darkness_Vol_Param",
       "ObjectPath": "\\Game Parameters\\Default Work Unit\\Darkness_Vol_Param",
       "GUID": "{6506ED8A-04C6-4742-8AE6-D9818DEFFC89}"
+     },
+     {
+      "Id": "855742124",
+      "Name": "Bass_Vol_Param",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Bass_Vol_Param",
+      "GUID": "{CAD5B4D2-AFE2-452A-8C83-7ED687D3D83E}"
      }
     ],
     "StateGroups": [
