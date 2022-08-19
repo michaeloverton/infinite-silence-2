@@ -5,9 +5,8 @@
 			<ChildrenList>
 				<Effect Name="Bass_Pulse_Delay" ID="{9472CEC1-E2A1-4A43-8B34-82992AE9822F}" PluginName="Wwise Delay" CompanyID="0" PluginID="106" PluginType="3">
 					<PropertyList>
-						<Property Name="DelayTime" Type="Real32" Value="0.47"/>
-						<Property Name="Feedback" Type="Real32" Value="46"/>
-						<Property Name="WetDryMix" Type="Real32" Value="36.5"/>
+						<Property Name="Feedback" Type="Real32" Value="44.5"/>
+						<Property Name="WetDryMix" Type="Real32" Value="24.5"/>
 					</PropertyList>
 				</Effect>
 			</ChildrenList>

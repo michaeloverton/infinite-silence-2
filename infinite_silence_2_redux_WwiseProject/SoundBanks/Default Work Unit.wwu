@@ -5,8 +5,14 @@
 			<ChildrenList>
 				<SoundBank Name="Main" ID="{FA068457-4D8E-46D7-9615-B52DDC9EA4CA}">
 					<ObjectInclusionList>
+						<ObjectRef Name="Play_F3" ID="{420EDBEC-2BA1-409B-AD73-9637FCA17907}" WorkUnitID="{5FDFC12B-672C-408F-B684-FF95EC8B9767}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Bass_Pulse" ID="{0A2FB24A-5426-41B1-979B-8FC64979DCB6}" WorkUnitID="{5FDFC12B-672C-408F-B684-FF95EC8B9767}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Music" ID="{14A2AAA1-8104-48C3-9793-ADAF40AF18BA}" WorkUnitID="{5FDFC12B-672C-408F-B684-FF95EC8B9767}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_Music" ID="{1281AAEE-4456-4A9A-9665-DEBDE7A41822}" WorkUnitID="{5FDFC12B-672C-408F-B684-FF95EC8B9767}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Darkness" ID="{4B3A93BB-8C47-4AE6-89FA-CEC6B37F57AB}" WorkUnitID="{5FDFC12B-672C-408F-B684-FF95EC8B9767}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_B3" ID="{BAFF9974-C53C-4D87-9CCA-ADEAEF91C857}" WorkUnitID="{5FDFC12B-672C-408F-B684-FF95EC8B9767}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_C4" ID="{12D3A076-97F4-4E8C-85B4-44FE0DA3FAD8}" WorkUnitID="{5FDFC12B-672C-408F-B684-FF95EC8B9767}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Drone" ID="{7E37B7BB-959D-4F7D-A0D7-249C488EF71A}" WorkUnitID="{5FDFC12B-672C-408F-B684-FF95EC8B9767}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

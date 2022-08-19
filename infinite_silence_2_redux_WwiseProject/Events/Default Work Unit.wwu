@@ -8,7 +8,6 @@
 						<Action Name="" ID="{ACD38576-D607-412D-9262-7E634DD90F15}" ShortID="838039023">
 							<PropertyList>
 								<Property Name="FadeInCurve" Type="int16" Value="2"/>
-								<Property Name="FadeTime" Type="Real64" Value="2"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
@@ -24,6 +23,77 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Bass Pulse" ID="{BA03791A-5C84-4746-B63A-7811DF4632BA}" WorkUnitID="{44D4CCC4-3EE9-4D5A-A420-41C2DD3428E9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_F3" ID="{420EDBEC-2BA1-409B-AD73-9637FCA17907}">
+					<ChildrenList>
+						<Action Name="" ID="{AAC59E4C-C597-4FF1-82DA-FB3420C8D9B0}" ShortID="754163776">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="F#3" ID="{81DD319F-0F8D-48D6-9939-9954F898500A}" WorkUnitID="{44D4CCC4-3EE9-4D5A-A420-41C2DD3428E9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_B3" ID="{BAFF9974-C53C-4D87-9CCA-ADEAEF91C857}">
+					<ChildrenList>
+						<Action Name="" ID="{C8A29A86-191F-4E86-AB97-72B025405440}" ShortID="370191690">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="B3" ID="{D19275CF-2FBD-49FF-8837-CBACC9053EB5}" WorkUnitID="{44D4CCC4-3EE9-4D5A-A420-41C2DD3428E9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_C4" ID="{12D3A076-97F4-4E8C-85B4-44FE0DA3FAD8}">
+					<ChildrenList>
+						<Action Name="" ID="{41D1D1CE-0D35-485C-B00F-E4BB8CE9B439}" ShortID="812882217">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="C#4" ID="{066EF645-71C2-436B-8BFE-070633E968FD}" WorkUnitID="{44D4CCC4-3EE9-4D5A-A420-41C2DD3428E9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Drone" ID="{7E37B7BB-959D-4F7D-A0D7-249C488EF71A}">
+					<ChildrenList>
+						<Action Name="" ID="{8DB223A4-4316-40D3-B7DB-36635CAA2E46}" ShortID="440170981">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Drone" ID="{61D58697-FFC9-4231-8D5E-80EFF5137FC1}" WorkUnitID="{44D4CCC4-3EE9-4D5A-A420-41C2DD3428E9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Darkness" ID="{4B3A93BB-8C47-4AE6-89FA-CEC6B37F57AB}">
+					<ChildrenList>
+						<Action Name="" ID="{4D4388FF-E717-4493-B800-1581532D6B58}" ShortID="398707831">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Darkness" ID="{1A0545B1-F6EC-45C2-BDDA-FBEDE80DD761}" WorkUnitID="{44D4CCC4-3EE9-4D5A-A420-41C2DD3428E9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_Music" ID="{1281AAEE-4456-4A9A-9665-DEBDE7A41822}">
+					<ChildrenList>
+						<Action Name="" ID="{EA334D6B-917C-4F6B-9AE9-484E793A96C2}" ShortID="110988716">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeOutCurve" Type="int16" Value="1"/>
+								<Property Name="FadeTime" Type="Real64" Value="3"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Game Switch" ID="{907EE0F7-2756-44DB-AF54-77CD10E6C134}" WorkUnitID="{DE7F6C02-861E-4B12-B471-8A9E14A4DC8E}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

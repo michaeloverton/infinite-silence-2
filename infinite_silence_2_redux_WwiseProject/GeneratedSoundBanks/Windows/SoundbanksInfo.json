@@ -19,7 +19,7 @@
     "Id": "1355168291",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "444906602",
+    "Hash": "3924077793",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk"
@@ -28,11 +28,28 @@
     "Id": "3161908922",
     "GUID": "{FA068457-4D8E-46D7-9615-B52DDC9EA4CA}",
     "Language": "SFX",
-    "Hash": "2902578441",
+    "Hash": "1348731670",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
     "IncludedEvents": [
+     {
+      "Id": "2329966927",
+      "Name": "Play_B3",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_B3",
+      "GUID": "{BAFF9974-C53C-4D87-9CCA-ADEAEF91C857}",
+      "DurationType": "OneShot",
+      "DurationMin": "11.52",
+      "DurationMax": "11.52",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "37413424",
+        "Language": "SFX",
+        "ShortName": "b3-short.wav",
+        "Path": "SFX\\b3-short_10C4C929.wem"
+       }
+      ]
+     },
      {
       "Id": "2967050589",
       "Name": "Play_Bass_Pulse",
@@ -46,7 +63,71 @@
         "Id": "543423589",
         "Language": "SFX",
         "ShortName": "bass.wav",
-        "Path": "SFX\\bass_7FC78DE6.wem"
+        "Path": "SFX\\bass_97273589.wem"
+       }
+      ]
+     },
+     {
+      "Id": "2346744635",
+      "Name": "Play_C4",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_C4",
+      "GUID": "{12D3A076-97F4-4E8C-85B4-44FE0DA3FAD8}",
+      "DurationType": "OneShot",
+      "DurationMin": "11.52",
+      "DurationMax": "11.52",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "285755736",
+        "Language": "SFX",
+        "ShortName": "c#4-short.wav",
+        "Path": "SFX\\c#4-short_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "911794363",
+      "Name": "Play_Darkness",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Darkness",
+      "GUID": "{4B3A93BB-8C47-4AE6-89FA-CEC6B37F57AB}",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "927669852",
+        "Language": "SFX",
+        "ShortName": "darkness.wav",
+        "Path": "SFX\\darkness_EBF92097.wem"
+       }
+      ]
+     },
+     {
+      "Id": "4042141136",
+      "Name": "Play_Drone",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Drone",
+      "GUID": "{7E37B7BB-959D-4F7D-A0D7-249C488EF71A}",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "629349600",
+        "Language": "SFX",
+        "ShortName": "drone.wav",
+        "Path": "SFX\\drone_EBF92097.wem"
+       }
+      ]
+     },
+     {
+      "Id": "2262856451",
+      "Name": "Play_F3",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_F3",
+      "GUID": "{420EDBEC-2BA1-409B-AD73-9637FCA17907}",
+      "DurationType": "OneShot",
+      "DurationMin": "11.52",
+      "DurationMax": "11.52",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "749964403",
+        "Language": "SFX",
+        "ShortName": "f#3-short.wav",
+        "Path": "SFX\\f#3-short_10C4C929.wem"
        }
       ]
      },
@@ -64,22 +145,10 @@
         "Path": "SFX\\bass_D79FB2B7.wem"
        },
        {
-        "Id": "435537278",
-        "Language": "SFX",
-        "ShortName": "drone.wav",
-        "Path": "SFX\\drone_D79FB2B7.wem"
-       },
-       {
         "Id": "612117474",
         "Language": "SFX",
         "ShortName": "pad-loop.wav",
         "Path": "SFX\\pad-loop_D79FB2B7.wem"
-       },
-       {
-        "Id": "807139432",
-        "Language": "SFX",
-        "ShortName": "darkness.wav",
-        "Path": "SFX\\darkness_D79FB2B7.wem"
        }
       ],
       "SwitchContainers": [
@@ -87,13 +156,7 @@
         "SwitchValue": "{41C6F834-B3F9-4B62-B859-5FCC2F8F4486}",
         "Media": [
          {
-          "Id": "435537278"
-         },
-         {
           "Id": "612117474"
-         },
-         {
-          "Id": "807139432"
          }
         ]
        },
@@ -104,17 +167,21 @@
           "Id": "92715730"
          },
          {
-          "Id": "435537278"
-         },
-         {
           "Id": "612117474"
-         },
-         {
-          "Id": "807139432"
          }
         ]
        }
       ]
+     },
+     {
+      "Id": "2837384057",
+      "Name": "Stop_Music",
+      "ObjectPath": "\\Events\\Default Work Unit\\Stop_Music",
+      "GUID": "{1281AAEE-4456-4A9A-9665-DEBDE7A41822}",
+      "MaxAttenuation": "0.",
+      "DurationType": "OneShot",
+      "DurationMin": "0.",
+      "DurationMax": "0."
      }
     ],
     "GameParameters": [
@@ -123,12 +190,6 @@
       "Name": "Darkness_Vol_Param",
       "ObjectPath": "\\Game Parameters\\Default Work Unit\\Darkness_Vol_Param",
       "GUID": "{6506ED8A-04C6-4742-8AE6-D9818DEFFC89}"
-     },
-     {
-      "Id": "855742124",
-      "Name": "Bass_Vol_Param",
-      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Bass_Vol_Param",
-      "GUID": "{CAD5B4D2-AFE2-452A-8C83-7ED687D3D83E}"
      }
     ],
     "StateGroups": [
