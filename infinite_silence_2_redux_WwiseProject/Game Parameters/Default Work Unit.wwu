@@ -3,7 +3,11 @@
 	<GameParameters>
 		<WorkUnit Name="Default Work Unit" ID="{4DB599A2-23F6-4E98-B331-864303A4BFF0}" PersistMode="Standalone">
 			<ChildrenList>
-				<GameParameter Name="New_Game_Parameter" ID="{2AEFFE2D-BF56-491E-BFA7-39966C4C69C5}"/>
+				<GameParameter Name="Darkness_Vol_Param" ID="{6506ED8A-04C6-4742-8AE6-D9818DEFFC89}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+					</PropertyList>
+				</GameParameter>
 			</ChildrenList>
 		</WorkUnit>
 	</GameParameters>

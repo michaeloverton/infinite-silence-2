@@ -18,6 +18,21 @@
 						</Transition>
 					</TransitionList>
 				</StateGroup>
+				<StateGroup Name="Music_State_Group" ID="{1987A283-C586-4ADC-838D-511E70B1BDF2}">
+					<ChildrenList>
+						<State Name="None" ID="{A84007B2-CB45-4FA6-87CE-5CEE56008829}"/>
+						<State Name="A_State" ID="{41C6F834-B3F9-4B62-B859-5FCC2F8F4486}"/>
+						<State Name="B_State" ID="{61445491-FA8C-4F45-983E-F2E4DD09CB8A}"/>
+					</ChildrenList>
+					<TransitionList>
+						<Transition>
+							<StartState Name="A_State" ID="{41C6F834-B3F9-4B62-B859-5FCC2F8F4486}"/>
+							<EndState Name="B_State" ID="{61445491-FA8C-4F45-983E-F2E4DD09CB8A}"/>
+							<Time>0</Time>
+							<IsShared>true</IsShared>
+						</Transition>
+					</TransitionList>
+				</StateGroup>
 			</ChildrenList>
 		</WorkUnit>
 	</States>

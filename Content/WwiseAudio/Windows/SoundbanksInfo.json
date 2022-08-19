@@ -19,7 +19,7 @@
     "Id": "1355168291",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "3380068808",
+    "Hash": "826508800",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk"
@@ -28,28 +28,11 @@
     "Id": "3161908922",
     "GUID": "{FA068457-4D8E-46D7-9615-B52DDC9EA4CA}",
     "Language": "SFX",
-    "Hash": "1374628627",
+    "Hash": "2855868279",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
     "IncludedEvents": [
-     {
-      "Id": "2967050589",
-      "Name": "Play_Bass_Pulse",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_Bass_Pulse",
-      "GUID": "{0FA8DEDC-317E-4A17-B84E-DC688D565D3B}",
-      "DurationType": "OneShot",
-      "DurationMin": "7.384615",
-      "DurationMax": "7.384615",
-      "IncludedMemoryFiles": [
-       {
-        "Id": "437613865",
-        "Language": "SFX",
-        "ShortName": "rep1.wav",
-        "Path": "SFX\\rep1_D79FB2B7.wem"
-       }
-      ]
-     },
      {
       "Id": "2932040671",
       "Name": "Play_Music",
@@ -58,125 +41,97 @@
       "DurationType": "Infinite",
       "IncludedMemoryFiles": [
        {
-        "Id": "317410522",
+        "Id": "92715730",
         "Language": "SFX",
-        "ShortName": "arp2-4bar.wav",
-        "Path": "SFX\\arp2-4bar_D79FB2B7.wem"
+        "ShortName": "bass.wav",
+        "Path": "SFX\\bass_D79FB2B7.wem"
        },
        {
-        "Id": "437613865",
+        "Id": "435537278",
         "Language": "SFX",
-        "ShortName": "rep1.wav",
-        "Path": "SFX\\rep1_D79FB2B7.wem"
+        "ShortName": "drone.wav",
+        "Path": "SFX\\drone_D79FB2B7.wem"
        },
        {
-        "Id": "974385449",
+        "Id": "612117474",
         "Language": "SFX",
-        "ShortName": "arp1-4bar.wav",
-        "Path": "SFX\\arp1-4bar_D79FB2B7.wem"
-       }
-      ]
-     },
-     {
-      "Id": "3627003398",
-      "Name": "Play_Switchable",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_Switchable",
-      "GUID": "{D75161A2-5F6D-470F-A159-5A67E3CE741A}",
-      "DurationType": "Infinite",
-      "IncludedMemoryFiles": [
-       {
-        "Id": "317410522",
-        "Language": "SFX",
-        "ShortName": "arp2-4bar.wav",
-        "Path": "SFX\\arp2-4bar_D79FB2B7.wem"
+        "ShortName": "pad-loop.wav",
+        "Path": "SFX\\pad-loop_D79FB2B7.wem"
        },
        {
-        "Id": "437613865",
+        "Id": "807139432",
         "Language": "SFX",
-        "ShortName": "rep1.wav",
-        "Path": "SFX\\rep1_D79FB2B7.wem"
-       },
-       {
-        "Id": "974385449",
-        "Language": "SFX",
-        "ShortName": "arp1-4bar.wav",
-        "Path": "SFX\\arp1-4bar_D79FB2B7.wem"
+        "ShortName": "darkness.wav",
+        "Path": "SFX\\darkness_D79FB2B7.wem"
        }
       ],
       "SwitchContainers": [
        {
-        "SwitchValue": "{E991D11E-394D-4013-9F16-A5C86768F896}",
+        "SwitchValue": "{41C6F834-B3F9-4B62-B859-5FCC2F8F4486}",
         "Media": [
          {
-          "Id": "974385449"
+          "Id": "435537278"
+         },
+         {
+          "Id": "612117474"
+         },
+         {
+          "Id": "807139432"
          }
         ]
        },
        {
-        "SwitchValue": "{543B05D3-7ECD-426B-B326-754C7C6AD00B}",
+        "SwitchValue": "{61445491-FA8C-4F45-983E-F2E4DD09CB8A}",
         "Media": [
          {
-          "Id": "317410522"
-         }
-        ]
-       },
-       {
-        "SwitchValue": "{F728DF48-0ED7-44EF-AFA0-3974243A5007}",
-        "Media": [
+          "Id": "92715730"
+         },
          {
-          "Id": "437613865"
+          "Id": "435537278"
+         },
+         {
+          "Id": "612117474"
+         },
+         {
+          "Id": "807139432"
          }
         ]
        }
       ]
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "815337444",
+      "Name": "Darkness_Vol_Param",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Darkness_Vol_Param",
+      "GUID": "{6506ED8A-04C6-4742-8AE6-D9818DEFFC89}"
      }
     ],
     "StateGroups": [
      {
-      "Id": "2215261762",
-      "Name": "Intensity_State_Group",
-      "ObjectPath": "\\States\\Default Work Unit\\Intensity_State_Group",
-      "GUID": "{2D317D74-4A17-4210-8378-BFF6AA94E1AC}",
+      "Id": "2434766612",
+      "Name": "Music_State_Group",
+      "ObjectPath": "\\States\\Default Work Unit\\Music_State_Group",
+      "GUID": "{1987A283-C586-4ADC-838D-511E70B1BDF2}",
       "States": [
        {
         "Id": "748895195",
         "Name": "None",
-        "ObjectPath": "\\States\\Default Work Unit\\Intensity_State_Group\\None",
-        "GUID": "{FF100523-7DC2-4DCC-8DD6-D3DD19D90A40}"
+        "ObjectPath": "\\States\\Default Work Unit\\Music_State_Group\\None",
+        "GUID": "{A84007B2-CB45-4FA6-87CE-5CEE56008829}"
        },
        {
-        "Id": "1511550594",
-        "Name": "Normal_State",
-        "ObjectPath": "\\States\\Default Work Unit\\Intensity_State_Group\\Normal_State",
-        "GUID": "{E991D11E-394D-4013-9F16-A5C86768F896}"
+        "Id": "2896168400",
+        "Name": "A_State",
+        "ObjectPath": "\\States\\Default Work Unit\\Music_State_Group\\A_State",
+        "GUID": "{41C6F834-B3F9-4B62-B859-5FCC2F8F4486}"
        },
        {
-        "Id": "437296015",
-        "Name": "Stress_State",
-        "ObjectPath": "\\States\\Default Work Unit\\Intensity_State_Group\\Stress_State",
-        "GUID": "{543B05D3-7ECD-426B-B326-754C7C6AD00B}"
-       }
-      ]
-     }
-    ],
-    "SwitchGroups": [
-     {
-      "Id": "2114309552",
-      "Name": "Repeater_Switch_Group",
-      "ObjectPath": "\\Switches\\Default Work Unit\\Repeater_Switch_Group",
-      "GUID": "{6389D702-9B7C-4129-8030-B82F1D188AD7}",
-      "Switches": [
-       {
-        "Id": "2744135750",
-        "Name": "Rep_On",
-        "ObjectPath": "\\Switches\\Default Work Unit\\Repeater_Switch_Group\\Rep_On",
-        "GUID": "{F728DF48-0ED7-44EF-AFA0-3974243A5007}"
-       },
-       {
-        "Id": "3388738220",
-        "Name": "Rep_Off",
-        "ObjectPath": "\\Switches\\Default Work Unit\\Repeater_Switch_Group\\Rep_Off",
-        "GUID": "{01F1C49E-4D17-4F18-89F4-5DE57CA4E5F0}"
+        "Id": "2234821919",
+        "Name": "B_State",
+        "ObjectPath": "\\States\\Default Work Unit\\Music_State_Group\\B_State",
+        "GUID": "{61445491-FA8C-4F45-983E-F2E4DD09CB8A}"
        }
       ]
      }

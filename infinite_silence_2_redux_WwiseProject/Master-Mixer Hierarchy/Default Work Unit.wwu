@@ -10,7 +10,7 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<Bus Name="New Audio Bus" ID="{45783C3B-8A45-49C0-8A85-63164590ECDF}">
+						<Bus Name="Music Bus" ID="{45783C3B-8A45-49C0-8A85-63164590ECDF}">
 							<ReferenceList>
 								<Reference Name="Effect0" PluginName="Wwise Compressor" CompanyID="0" PluginID="108" PluginType="3">
 									<ObjectRef Name="Gentle_Program_Compressor_Minus_14dB_RMS" ID="{1595E6B0-DD58-4363-A3F0-DF0C96EC7C17}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>

@@ -5,9 +5,7 @@
 			<ChildrenList>
 				<SoundBank Name="Main" ID="{FA068457-4D8E-46D7-9615-B52DDC9EA4CA}">
 					<ObjectInclusionList>
-						<ObjectRef Name="Play_Switchable" ID="{D75161A2-5F6D-470F-A159-5A67E3CE741A}" WorkUnitID="{5FDFC12B-672C-408F-B684-FF95EC8B9767}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Music" ID="{14A2AAA1-8104-48C3-9793-ADAF40AF18BA}" WorkUnitID="{5FDFC12B-672C-408F-B684-FF95EC8B9767}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_Bass_Pulse" ID="{0FA8DEDC-317E-4A17-B84E-DC688D565D3B}" WorkUnitID="{5FDFC12B-672C-408F-B684-FF95EC8B9767}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
