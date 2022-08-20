@@ -12,7 +12,7 @@
 							<ObjectRef Name="Bass_Pulse_Delay" ID="{9472CEC1-E2A1-4A43-8B34-82992AE9822F}" WorkUnitID="{8D8CA978-AD13-4412-B10C-DF88ED026504}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Music Bus" ID="{45783C3B-8A45-49C0-8A85-63164590ECDF}" WorkUnitID="{4A0D608B-90A2-4468-BC29-94B01E08E242}"/>
+							<ObjectRef Name="Bass Buss" ID="{CF503B3D-69BD-4346-92FD-9C6F4B148372}" WorkUnitID="{4A0D608B-90A2-4468-BC29-94B01E08E242}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
@@ -127,6 +127,34 @@
 				<Sound Name="Drone" ID="{61D58697-FFC9-4231-8D5E-80EFF5137FC1}" ShortID="1008212046">
 					<PropertyList>
 						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<RTPCList>
+								<RTPC Name="" ID="{D3AC9BB8-2741-4570-8D5E-BA5047AFE495}" ShortID="253710177">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="Drone_Vol_Param" ID="{98413237-391A-4A69-AC5C-F288C3A46698}" WorkUnitID="{4DB599A2-23F6-4E98-B331-864303A4BFF0}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{4B0D1140-3AEA-4704-8A7A-2DB093D78A8B}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="3"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-200</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>100</XPos>
+												<YPos>0</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
@@ -213,6 +241,36 @@
 					<ObjectLists/>
 					<ActiveSourceList>
 						<ActiveSource Name="darkness" ID="{674ACC10-2A95-440E-8B43-A4FB0D874A61}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Teleport Arp" ID="{F3D665C4-0650-4915-89CC-BFB68F579406}" ShortID="991413171">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-4</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0FA15147-BD56-417F-A863-F0E149429F8A}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Music Bus" ID="{45783C3B-8A45-49C0-8A85-63164590ECDF}" WorkUnitID="{4A0D608B-90A2-4468-BC29-94B01E08E242}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="teleport-arp" ID="{97FE6E9D-732D-4A15-83CA-3EDED4981B62}">
+							<Language>SFX</Language>
+							<AudioFile>teleport-arp.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="133422598"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="teleport-arp" ID="{97FE6E9D-732D-4A15-83CA-3EDED4981B62}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
 			</ChildrenList>

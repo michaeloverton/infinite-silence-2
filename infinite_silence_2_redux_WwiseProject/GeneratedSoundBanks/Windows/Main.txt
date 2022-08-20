@@ -1,5 +1,6 @@
 Event	ID	Name			Wwise Object Path	Notes
 	911794363	Play_Darkness			\Default Work Unit\Play_Darkness	
+	1343919921	Play_Teleport_Arp			\Default Work Unit\Play_Teleport_Arp	
 	2262856451	Play_F3			\Default Work Unit\Play_F3	
 	2329966927	Play_B3			\Default Work Unit\Play_B3	
 	2346744635	Play_C4			\Default Work Unit\Play_C4	
@@ -12,12 +13,18 @@ State Group	ID	Name			Wwise Object Path	Notes
 	2434766612	Music_State_Group			\Default Work Unit\Music_State_Group	
 
 State	ID	Name	State Group			Notes
+	217379157	D_State	Music_State_Group			
 	748895195	None	Music_State_Group			
+	1589478550	C_State	Music_State_Group			
 	2234821919	B_State	Music_State_Group			
 	2896168400	A_State	Music_State_Group			
 
 Game Parameter	ID	Name			Wwise Object Path	Notes
+	753294063	High_Arp_Vol_Param			\Default Work Unit\High_Arp_Vol_Param	
 	815337444	Darkness_Vol_Param			\Default Work Unit\Darkness_Vol_Param	
+	1089194972	Base_Arp_Vol_Param			\Default Work Unit\Base_Arp_Vol_Param	
+	2229362325	Drone_Vol_Param			\Default Work Unit\Drone_Vol_Param	
+	3350384892	Pad_Vol_Param			\Default Work Unit\Pad_Vol_Param	
 
 Effect plug-ins	ID	Name	Type				Notes
 	1371593566	Bass_Pulse_Delay	Wwise Delay			
@@ -25,10 +32,15 @@ Effect plug-ins	ID	Name	Type				Notes
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	37413424	B3	D:\Unreal\infinite_silence_2_redux\infinite_silence_2_redux_WwiseProject\.cache\Windows\SFX\b3-short_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\B3		2032192
 	92715730	bass	D:\Unreal\infinite_silence_2_redux\infinite_silence_2_redux_WwiseProject\.cache\Windows\SFX\bass_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Game Switch\State B Playlist\State B Tracks\bass		54190144
+	133422598	Teleport Arp	D:\Unreal\infinite_silence_2_redux\infinite_silence_2_redux_WwiseProject\.cache\Windows\SFX\teleport-arp_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Teleport Arp		1016128
+	145904718	kik	D:\Unreal\infinite_silence_2_redux\infinite_silence_2_redux_WwiseProject\.cache\Windows\SFX\kik_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Game Switch\State C Playlist\State C Tracks\kik		54190144
 	285755736	C#4	D:\Unreal\infinite_silence_2_redux\infinite_silence_2_redux_WwiseProject\.cache\Windows\SFX\c#4-short_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\C#4		2032192
-	543423589	Bass Pulse	D:\Unreal\infinite_silence_2_redux\infinite_silence_2_redux_WwiseProject\.cache\Windows\SFX\bass_97273589.wem		\Actor-Mixer Hierarchy\Default Work Unit\Bass Pulse		337424
+	418556468	arp-stabs	D:\Unreal\infinite_silence_2_redux\infinite_silence_2_redux_WwiseProject\.cache\Windows\SFX\arp-stabs_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Game Switch\State D Playlist\State D Tracks\arp-stabs		54190144
+	543423589	Bass Pulse	D:\Unreal\infinite_silence_2_redux\infinite_silence_2_redux_WwiseProject\.cache\Windows\SFX\bass_4D9604E0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Bass Pulse		337424
+	577438049	base-arp	D:\Unreal\infinite_silence_2_redux\infinite_silence_2_redux_WwiseProject\.cache\Windows\SFX\base-arp_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Game Switch\State B Playlist\State B Tracks\base-arp		54190144
 	612117474	pad-loop	D:\Unreal\infinite_silence_2_redux\infinite_silence_2_redux_WwiseProject\.cache\Windows\SFX\pad-loop_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Game Switch\State A Playlist\State A Tracks\pad-loop		54190144
 	629349600	Drone	D:\Unreal\infinite_silence_2_redux\infinite_silence_2_redux_WwiseProject\.cache\Windows\SFX\drone_EBF92097.wem		\Actor-Mixer Hierarchy\Default Work Unit\Drone		54190144
 	749964403	F#3	D:\Unreal\infinite_silence_2_redux\infinite_silence_2_redux_WwiseProject\.cache\Windows\SFX\f#3-short_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\F#3		2032192
+	927639640	high-arp	D:\Unreal\infinite_silence_2_redux\infinite_silence_2_redux_WwiseProject\.cache\Windows\SFX\high-arp_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Game Switch\State C Playlist\State C Tracks\high-arp		54190144
 	927669852	Darkness	D:\Unreal\infinite_silence_2_redux\infinite_silence_2_redux_WwiseProject\.cache\Windows\SFX\darkness_EBF92097.wem		\Actor-Mixer Hierarchy\Default Work Unit\Darkness		54190144
 

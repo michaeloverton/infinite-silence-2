@@ -3,21 +3,6 @@
 	<States>
 		<WorkUnit Name="Default Work Unit" ID="{5A0F2AC0-9B20-4492-85D3-BBDA4B8EBD3F}" PersistMode="Standalone">
 			<ChildrenList>
-				<StateGroup Name="Intensity_State_Group" ID="{2D317D74-4A17-4210-8378-BFF6AA94E1AC}">
-					<ChildrenList>
-						<State Name="None" ID="{FF100523-7DC2-4DCC-8DD6-D3DD19D90A40}"/>
-						<State Name="Normal_State" ID="{E991D11E-394D-4013-9F16-A5C86768F896}"/>
-						<State Name="Stress_State" ID="{543B05D3-7ECD-426B-B326-754C7C6AD00B}"/>
-					</ChildrenList>
-					<TransitionList>
-						<Transition>
-							<StartState Name="Normal_State" ID="{E991D11E-394D-4013-9F16-A5C86768F896}"/>
-							<EndState Name="Stress_State" ID="{543B05D3-7ECD-426B-B326-754C7C6AD00B}"/>
-							<Time>0</Time>
-							<IsShared>true</IsShared>
-						</Transition>
-					</TransitionList>
-				</StateGroup>
 				<StateGroup Name="Music_State_Group" ID="{1987A283-C586-4ADC-838D-511E70B1BDF2}">
 					<PropertyList>
 						<Property Name="DefaultTransitionTime" Type="Real64" Value="5"/>
@@ -26,6 +11,8 @@
 						<State Name="None" ID="{A84007B2-CB45-4FA6-87CE-5CEE56008829}"/>
 						<State Name="A_State" ID="{41C6F834-B3F9-4B62-B859-5FCC2F8F4486}"/>
 						<State Name="B_State" ID="{61445491-FA8C-4F45-983E-F2E4DD09CB8A}"/>
+						<State Name="C_State" ID="{CF3300BA-F67F-419A-AE53-E6614F491DEB}"/>
+						<State Name="D_State" ID="{931AB74C-5170-416C-9E84-65118A0E8F96}"/>
 					</ChildrenList>
 				</StateGroup>
 			</ChildrenList>

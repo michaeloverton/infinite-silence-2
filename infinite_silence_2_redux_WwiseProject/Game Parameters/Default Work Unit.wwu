@@ -8,6 +8,22 @@
 						<Property Name="InitialValue" Type="Real64" Value="0"/>
 					</PropertyList>
 				</GameParameter>
+				<GameParameter Name="Base_Arp_Vol_Param" ID="{B77EEB25-95CE-4767-AE6B-23A8B8C140D5}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="High_Arp_Vol_Param" ID="{FD871D4E-D95F-4D6B-A0D8-A35C494AA838}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="Drone_Vol_Param" ID="{98413237-391A-4A69-AC5C-F288C3A46698}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="100"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="Pad_Vol_Param" ID="{93AFCF6E-23AC-4D5E-ADCC-72DB6BD25903}"/>
 			</ChildrenList>
 		</WorkUnit>
 	</GameParameters>

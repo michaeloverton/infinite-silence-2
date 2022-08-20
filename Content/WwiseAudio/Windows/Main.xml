@@ -8,7 +8,7 @@
 		<ExternalSourcesOutputRoot>D:\Unreal\infinite_silence_2_redux\infinite_silence_2_redux_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="3161908922" GUID="{FA068457-4D8E-46D7-9615-B52DDC9EA4CA}" Language="SFX" Hash="3852530352">
+		<SoundBank Id="3161908922" GUID="{FA068457-4D8E-46D7-9615-B52DDC9EA4CA}" Language="SFX" Hash="551439863">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -67,9 +67,25 @@
 							<ShortName>bass.wav</ShortName>
 							<Path>SFX\bass_D79FB2B7.wem</Path>
 						</File>
+						<File Id="145904718" Language="SFX">
+							<ShortName>kik.wav</ShortName>
+							<Path>SFX\kik_D79FB2B7.wem</Path>
+						</File>
+						<File Id="418556468" Language="SFX">
+							<ShortName>arp-stabs.wav</ShortName>
+							<Path>SFX\arp-stabs_D79FB2B7.wem</Path>
+						</File>
+						<File Id="577438049" Language="SFX">
+							<ShortName>base-arp.wav</ShortName>
+							<Path>SFX\base-arp_D79FB2B7.wem</Path>
+						</File>
 						<File Id="612117474" Language="SFX">
 							<ShortName>pad-loop.wav</ShortName>
 							<Path>SFX\pad-loop_D79FB2B7.wem</Path>
+						</File>
+						<File Id="927639640" Language="SFX">
+							<ShortName>high-arp.wav</ShortName>
+							<Path>SFX\high-arp_D79FB2B7.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 					<SwitchContainers>
@@ -81,15 +97,47 @@
 						<SwitchContainer SwitchValue="{61445491-FA8C-4F45-983E-F2E4DD09CB8A}">
 							<Media>
 								<File Id="92715730"/>
+								<File Id="577438049"/>
 								<File Id="612117474"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{CF3300BA-F67F-419A-AE53-E6614F491DEB}">
+							<Media>
+								<File Id="92715730"/>
+								<File Id="145904718"/>
+								<File Id="577438049"/>
+								<File Id="612117474"/>
+								<File Id="927639640"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{931AB74C-5170-416C-9E84-65118A0E8F96}">
+							<Media>
+								<File Id="92715730"/>
+								<File Id="145904718"/>
+								<File Id="418556468"/>
+								<File Id="577438049"/>
+								<File Id="612117474"/>
+								<File Id="927639640"/>
 							</Media>
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
+				<Event Id="1343919921" Name="Play_Teleport_Arp" ObjectPath="\Events\Default Work Unit\Play_Teleport_Arp" GUID="{20C023B4-F41D-4547-9623-6560D26BA8BE}" DurationType="OneShot" DurationMin="5.76" DurationMax="5.76">
+					<IncludedMemoryFiles>
+						<File Id="133422598" Language="SFX">
+							<ShortName>teleport-arp.wav</ShortName>
+							<Path>SFX\teleport-arp_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="2837384057" Name="Stop_Music" ObjectPath="\Events\Default Work Unit\Stop_Music" GUID="{1281AAEE-4456-4A9A-9665-DEBDE7A41822}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
 			</IncludedEvents>
 			<GameParameters>
+				<GameParameter Id="753294063" Name="High_Arp_Vol_Param" ObjectPath="\Game Parameters\Default Work Unit\High_Arp_Vol_Param" GUID="{FD871D4E-D95F-4D6B-A0D8-A35C494AA838}"/>
 				<GameParameter Id="815337444" Name="Darkness_Vol_Param" ObjectPath="\Game Parameters\Default Work Unit\Darkness_Vol_Param" GUID="{6506ED8A-04C6-4742-8AE6-D9818DEFFC89}"/>
+				<GameParameter Id="1089194972" Name="Base_Arp_Vol_Param" ObjectPath="\Game Parameters\Default Work Unit\Base_Arp_Vol_Param" GUID="{B77EEB25-95CE-4767-AE6B-23A8B8C140D5}"/>
+				<GameParameter Id="2229362325" Name="Drone_Vol_Param" ObjectPath="\Game Parameters\Default Work Unit\Drone_Vol_Param" GUID="{98413237-391A-4A69-AC5C-F288C3A46698}"/>
+				<GameParameter Id="3350384892" Name="Pad_Vol_Param" ObjectPath="\Game Parameters\Default Work Unit\Pad_Vol_Param" GUID="{93AFCF6E-23AC-4D5E-ADCC-72DB6BD25903}"/>
 			</GameParameters>
 			<StateGroups>
 				<StateGroup Id="2434766612" Name="Music_State_Group" ObjectPath="\States\Default Work Unit\Music_State_Group" GUID="{1987A283-C586-4ADC-838D-511E70B1BDF2}">
@@ -97,6 +145,8 @@
 						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\Music_State_Group\None" GUID="{A84007B2-CB45-4FA6-87CE-5CEE56008829}"/>
 						<State Id="2896168400" Name="A_State" ObjectPath="\States\Default Work Unit\Music_State_Group\A_State" GUID="{41C6F834-B3F9-4B62-B859-5FCC2F8F4486}"/>
 						<State Id="2234821919" Name="B_State" ObjectPath="\States\Default Work Unit\Music_State_Group\B_State" GUID="{61445491-FA8C-4F45-983E-F2E4DD09CB8A}"/>
+						<State Id="1589478550" Name="C_State" ObjectPath="\States\Default Work Unit\Music_State_Group\C_State" GUID="{CF3300BA-F67F-419A-AE53-E6614F491DEB}"/>
+						<State Id="217379157" Name="D_State" ObjectPath="\States\Default Work Unit\Music_State_Group\D_State" GUID="{931AB74C-5170-416C-9E84-65118A0E8F96}"/>
 					</States>
 				</StateGroup>
 			</StateGroups>

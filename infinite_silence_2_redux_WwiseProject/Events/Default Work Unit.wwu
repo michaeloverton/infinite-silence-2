@@ -99,6 +99,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Teleport_Arp" ID="{20C023B4-F41D-4547-9623-6560D26BA8BE}">
+					<ChildrenList>
+						<Action Name="" ID="{8276C33F-E5EF-412F-9531-63EB791802E6}" ShortID="912413245">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Teleport Arp" ID="{F3D665C4-0650-4915-89CC-BFB68F579406}" WorkUnitID="{44D4CCC4-3EE9-4D5A-A420-41C2DD3428E9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
